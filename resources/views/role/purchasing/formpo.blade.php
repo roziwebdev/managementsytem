@@ -258,18 +258,15 @@
                    <div>
                 @if ($materialrequest->status == 'Process')
                 <p>BUYER
-           
                 <div style="position: relative;">
                     <img style="width: 110px; position: absolute; top: -10px; left: 10px; z-index: -1; opacity: 0.3;"
                         src="{{ URL::asset('frontend1/img/photos/logoarjaya.png') }}" />
                 </div>
-
                         <p>
                             PT. ARJAYA MUKTI SANTOSA
                         </p>
                 </p>
                 @else
-
                 <p>BUYER<br/>
                      <br/>
                 <br>

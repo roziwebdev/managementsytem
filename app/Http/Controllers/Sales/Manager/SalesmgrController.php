@@ -152,14 +152,10 @@ class SalesmgrController extends Controller
         ];
     }
 
-    
-    
     public function dashboard (){
         $dataprice = $this->calculatePercentageChangePrice();
         $data = $this->calculatePercentageChange();
         return view('role.purchasing.dashboardmanager', compact('data','dataprice'));
     }
-    
-    
-    
+
 }

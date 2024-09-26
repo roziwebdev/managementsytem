@@ -132,7 +132,6 @@
                 </div>
             </div>
             <div style='width:80px;'>
-                
             </div>
             <div>
                 <p style="font-size: 70%"><strong>SHIP TO : </strong><br />
